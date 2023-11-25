@@ -6,6 +6,7 @@ import (
 )
 
 func Base64Encode(data string) (*string, error) {
+	//encoding data in bse64
 	if len(data) == 0 {
 		return nil, errors.New("empty string passed")
 	}
